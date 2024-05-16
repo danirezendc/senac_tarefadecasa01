@@ -1,0 +1,131 @@
+.logo p span,
+.caixa h5 span{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-left button{
+    width: 15rem;
+    height: 3rem;
+    background: -webkit-linear-gradient(90deg, rgb(48, 184, 150) 0%, rgb(48, 184, 150) 100%);
+    border: none;
+    color: #FFF;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+@media screen and (min-width: 600px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+}
+.container{
+    width: 80rem;
+}
+header{
+    display: flex;
+    color: #000;
+    width: auto;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+}
+
+.menu li :hover  {
+    color: #000;
+        background-color:rgb(48, 184, 150)  ;
+}
+.menu ul{
+    display: flex;
+}
+.home .line01 .box-left h2{
+    font-size: 2.5rem;
+}
+.line02 {
+    display: flex;
+    margin-top: 4rem;
+}
+.menu ul li{
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.line01{
+    display: flex;
+}
+.box-left,
+.box-right{
+    width: 40rem;
+    margin-top: 2rem;
+}
+ 
+.box-right  .texto li{
+    margin-top: 1rem;
+}
+.box-left p,
+.box-right li
+{
+    color: rgb(108, 117, 125);
+}
+.box-left button{
+    width: 15rem;
+    height: 3rem;
+    background: -webkit-linear-gradient(90deg, rgb(48, 184, 150) 0%, rgb(48, 184, 150) 100%);
+    border: none;
+    color: #FFF;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.box-left h2,
+.box-left p{
+    margin-top: 1rem;
+}
+.box-right
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.line02,
+.line03{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    height: 10rem;
+}
+.logo p span,
+.caixa h5 span{
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.line03 .caixa p{
+    font-size: calc(1.275rem + .3vw)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
